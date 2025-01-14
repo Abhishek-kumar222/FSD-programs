@@ -1,0 +1,50 @@
+#main{
+    width: 80vw;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    /* grid-auto-rows: 250px; */
+    /* row-gap: 20px;
+    column-gap: 20px; */
+    gap: 10px;
+}
+
+/* .gl{
+    border: 1px solid grey;
+    height: 200px;
+    width: 200px;
+
+} */
+ div{
+    border-radius: 10px;
+    position: relative;
+ }
+
+
+div img{
+    height: 100%;
+    width: 100%;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+}
+div img:hover{
+    cursor: pointer;
+    opacity: 0.4;
+    filter: grayscale(80%);
+    filter: blur(5px);
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+div i{
+    position: absolute;
+    top: 48%;
+    left: 48%;
+   
+    transform: scale(0);
+    transition-duration: 300ms;
+    transition-timing-function: linear;
+    color: white;
+}
+div:hover i{
+    transform: scale(2.2);
+}

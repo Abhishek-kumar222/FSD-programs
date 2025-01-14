@@ -1,0 +1,30 @@
+div{
+    height: 250px;
+    width: 250px;
+    background-color:aqua;
+    animation-name: abhi;
+    animation-duration: 4s;
+}
+div:hover{
+    background-color: bisque;
+    animation-iteration-count: infinite;
+}
+@keyframes abhi {
+    0%{
+        background-color: gainsboro;
+
+    }
+    35%{
+        background-color: gray;
+        height: 500px;
+        width: 500px;
+    }
+    75%{
+        background-color: rgb(69, 67, 67);
+    }
+    100%{
+        border-radius: 50%;
+        background-color: black;
+    }
+
+}

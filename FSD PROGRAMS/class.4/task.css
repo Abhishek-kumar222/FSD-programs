@@ -1,0 +1,13 @@
+#main{
+   
+    height: 300px;
+    width: 200px;
+    position: relative;
+}
+.one{
+    position: absolute;
+    height: 50%;
+
+}
+    
+

@@ -1,0 +1,29 @@
+#main{
+    border: 2px solid black;
+    height: 400px;
+    display: flex;
+    /* flex-direction: row;  */
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    /* justify-content: baseline; */
+    /* justify-content: center; */
+    /* justify-content: end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    
+}
+#main div{
+    height:100px ;
+    width: 100px;
+}
+#one{
+    background-color: blue;
+}
+#two{
+    background-color: blueviolet;
+}
+#three{
+    background-color: aqua;
+}

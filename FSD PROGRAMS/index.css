@@ -1,0 +1,15 @@
+div{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    transition: 1s;
+}
+div:hover{
+    background-color: brown;
+    border-radius: 50%;
+
+
+}
+p{
+    color: aqua;
+}

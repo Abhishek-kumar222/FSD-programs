@@ -1,0 +1,22 @@
+#main{
+    /* color: white;
+    height: 100vh;
+    width: 100vw;
+/* background-image: url(https://images.unsplash.com/photo-1735857749394-703e8a4d926b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); 
+background-size: 100% 100%; */
+height: 100vh;
+width: 100vw;
+/* background: linear-gradient(red,blue); */
+/* background: linear-gradient(to right,red,white,blue); */
+/* background: linear-gradient(to bottom right, red,yellow,green); */
+/* background: radial-gradient(red,blue); */
+/* background: radial-gradient(ellipse, red,yellow,green); */
+/* background: radial-gradient(circle at top left, red,blue); */
+/* background: conic-gradient(from 45deg,red,blue,green,orange) ; */
+/* background: conic-gradient(); */
+}
+:root{
+    --abhi :rgb(205, 63, 63);
+    --abhi1:rgb(90, 90, 229);
+
+}

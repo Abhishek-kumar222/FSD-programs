@@ -1,0 +1,48 @@
+#main{
+    height: 300px;
+    width: 300px;
+    /* background-color: aqua; */
+    position: relative;
+    transition: 3s;
+    margin: 150px auto;
+  
+ transform-style: preserve-3d;
+ /* perspective: 900px; */
+}
+#main:hover{
+    transform: rotateY(180deg);
+
+}
+
+#child1{
+    position: absolute;
+    z-index: 1;
+    backface-visibility: hidden;
+
+}
+
+
+#child2{
+    position: absolute;
+    background-color:coral;
+   transform: rotateY(180deg);
+    /* top: 2px; */
+    
+}
+body{
+    perspective: 900px;
+}
+p{
+    position: absolute;
+    left: 3%;
+}
+#child1,#child2{
+    border-radius: 8%;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+}
+img{
+    border-radius: 8%;
+}

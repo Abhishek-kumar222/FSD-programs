@@ -1,0 +1,13 @@
+/* #parent{
+    background-color: blueviolet;
+    height: 100vh;
+    width: 100vh;
+}
+#child{
+    background-color: blue;
+    height: 50%;
+    width: 50% ;
+} */
+li{
+    font-size: 2rem;
+}

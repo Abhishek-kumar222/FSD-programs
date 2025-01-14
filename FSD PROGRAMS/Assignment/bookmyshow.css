@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#main{
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+button{
+    border-color: solid white;
+    border-radius: 3%;
+    height: 30px;
+    width: 70px;
+    color: white;
+    background-color: rgb(242, 31, 77);
+    top:20px;
+    righ
+}
+form{
+    position:absolute;
+    top: 20px;
+}
